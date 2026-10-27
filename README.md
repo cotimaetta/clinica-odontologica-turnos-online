@@ -32,6 +32,19 @@ El diagrama representa la interacción entre el paciente y el Sistema de Gestió
 
 También se incluyeron situaciones excepcionales, como errores de autenticación, falta de horarios disponibles y cambios en la disponibilidad antes de confirmar una reserva.
 
+## Documentación BPMN
+
+El proceso de solicitud y reserva de turnos online fue modelado utilizando la notación BPMN 2.0 mediante la herramienta draw.io.
+
+Se encuentran disponibles los siguientes archivos:
+
+- [Visualizar diagrama BPMN (PNG)](./bpmn-reserva-turnos.png)
+- [Acceder al archivo BPMN editable (draw.io)](./bpmn-reserva-turnos.drawio)
+
+El archivo editable permite examinar las actividades, los participantes, las compuertas de decisión y los flujos de comunicación que componen el proceso.
+
+El diagrama también se encuentra incorporado en la documentación del Trabajo Práctico Integrador y Progresivo.
+
 ## Organización del proyecto
 
 **Institución:** Universidad Tecnológica Nacional (UTN)
