@@ -78,3 +78,29 @@ Durante la elaboración del proyecto se utilizó ChatGPT (OpenAI) como herramien
 Las propuestas generadas fueron evaluadas críticamente y modificadas cuando resultaron innecesarias o inconsistentes. Entre las correcciones realizadas se destacan la eliminación de compuertas redundantes, la simplificación de actividades, la revisión de los flujos de mensaje y la delimitación del alcance del proceso online.
 
 Las decisiones finales sobre el diseño, la documentación y la adecuación al funcionamiento de la clínica se realizaron mediante criterio propio. La asistencia de IA no sustituye la responsabilidad sobre la coherencia y exactitud del proyecto.
+
+### Ejemplos de consultas a la IA y evaluación crítica
+
+Durante el desarrollo del trabajo se realizaron distintas consultas a ChatGPT para analizar alternativas y resolver dificultades. A continuación, se presentan ejemplos resumidos de esas interacciones y las decisiones adoptadas.
+
+**1. Modelado del proceso BPMN**
+
+- **Consulta realizada (resumida):** ¿Cómo representar mediante BPMN 2.0 el proceso de solicitud y reserva de turnos, incluyendo el registro de pacientes, la autenticación, la selección de horarios y las situaciones excepcionales?
+- **Aporte de la IA:** Propuestas para organizar los participantes, las actividades, las compuertas XOR y los flujos de comunicación.
+- **Intervención humana:** Se revisó el diagrama de forma progresiva, identificando conexiones incorrectas, actividades redundantes y decisiones que podían simplificarse.
+
+**2. Simplificación de la consulta de disponibilidad**
+
+- **Consulta realizada (resumida):** ¿Es necesario incorporar actividades intermedias como «Preparar horarios disponibles» y «Preparar aviso de falta de disponibilidad», o pueden simplificarse?
+- **Aporte de la IA:** Análisis de las alternativas de representación del flujo.
+- **Intervención humana:** Se decidió eliminar las actividades innecesarias y utilizar acciones más directas, como «Enviar horarios disponibles», para mejorar la claridad del proceso.
+
+**3. Organización del backlog ágil**
+
+- **Consulta realizada (resumida):** ¿Cómo organizar las historias de usuario y las tareas del proyecto en GitHub Projects, utilizando los estados Por hacer, En progreso y Listo?
+- **Aporte de la IA:** Orientación para redactar historias de usuario, establecer criterios de aceptación y organizar el tablero Kanban.
+- **Intervención humana:** Se decidió mantener las funcionalidades del software en estado pendiente, diferenciándolas de las tareas de análisis y documentación efectivamente realizadas.
+
+**Conclusión de las interacciones**
+
+Las respuestas generadas por la IA fueron utilizadas como propuestas iniciales y no como soluciones definitivas. Se aplicó criterio propio para verificar su coherencia con la organización analizada, corregir errores de representación y asegurar que la documentación reflejara el estado real del proyecto.
